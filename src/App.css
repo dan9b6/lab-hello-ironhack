@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -7,16 +8,36 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.App-header img {
+  margin: 30px 40px;
+}
+
+.Main-page {
+  color: white;
+  width: 50%;
+  margin-left: 5%;
+}
+
+.Main-page > h1 {
+  font-size: 5em;
+}
+
+.Main-page > p {
+  width: 50%;
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+.Main-page > button {
+  padding: 25px 45px;
+  border-radius: 10px;
+  font-size: 1.4rem;
 }
